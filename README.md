@@ -11,7 +11,7 @@ How to install back end
 
 ```bash
 # Create the Laravel application...
-laravel new next-backend
+
 
 clone/down load the backend from git@github.com:od-ero/WardrobeManagementSystem.git
 
