@@ -7,23 +7,23 @@ This repository is the front end implemntantion of the project
 
 ### Installation
 
-How to install back end
+How to install backend
 
 ```bash
-# Create the Laravel application...
+# Clone the Laravel application...
 
 
-clone/down load the backend from git@github.com:od-ero/WardrobeManagementSystem.git
-
+clone/download the backend from [git@github.com:od-ero/WardrobeManagementSystem.git
+](https://github.com/od-ero/WardrobeManagementSystem.git)
 navigate to the backend folder.
 
-make a copy of .env.example as .env
+copy the .env attarched in the root folder of backend
 
-you can generate key.
 
 Remember to configure the databes appropriately in the env for mycase it was mysql.
 
-
+ #install composure
+composer install
 # Run database migrations...
 php artisan migrate
 ``
@@ -40,7 +40,7 @@ After defining the appropriate environment variables, you may serve the Laravel 
 php artisan serve
 ```
 
-Next, clone this repository and install its dependencies with `yarn install` or `npm install`. Then, copy the `.env.example` file to `.env.local` and supply the URL of your backend:
+Next, clone this repository and install its dependencies with `yarn install` or `npm install`. Then, copy the `.env.local` to frontend root and supply the URL of your backend:
 
 ```
 NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
@@ -52,9 +52,4 @@ Finally, run the application via `npm run dev`. The application will be availabl
 npm run dev
 ```
 
-> Note: Currently, we recommend using `localhost` during local development of your backend and frontend to avoid CORS "Same-Origin" issues.
-
-> Note: You will need to use [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) (`user?.name` instead of `user.name`) when accessing properties on the user object to account for Next.js's initial server-side render.
-
-### Named Routes
 
