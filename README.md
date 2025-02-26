@@ -51,5 +51,9 @@ Finally, run the application via `npm run dev`. The application will be availabl
 ```
 npm run dev
 ```
+Users are registered by login in users. Hence our intial credentials are;
 
+email : admin@gmail.com
+
+password : 1212
 
